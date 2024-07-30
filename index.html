@@ -1,18 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rudra Nautiyal Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico" />
     <script src="/js/animation.js" defer></script>
     <script src="/js/color-mode.js" defer></script>
     <script src="/js/project-slideshow.js" defer></script>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/animation.css">
-    <link rel="stylesheet" href="/css/color-mode.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/animation.css" />
+    <link rel="stylesheet" href="/css/color-mode.css" />
+  </head>
+  <body>
+    <div id="hero">
+      <h5>Hello I'm</h5>
+      <h1>Rudra Nautiyal</h1>
+      <p>Fullstack Developer</p>
+      <div id="hero__animation">
+        <div id="hero__animation__img"></div>
+      </div>
+    </div>
+    <nav id="grid">
+      <div id="grid__tl">
+        <div id="grid__tl__btn">About</div>
+        <div id="grid__tl__content">
+          <div class="cards">
+            <div class="class__contents">
+              <article>
+                <img
+                  src="./assets/icons/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h2>Experience</h2>
+                <p>
+                  6 Months + <br />
+                  Developer <br />
+                  Experience
+                </p>
+              </article>
+              <p class="card__content__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quaerat, incidunt.
+              </p>
+            </div>
+            <div class="class__contents">
+              <article>
+                <img
+                  src="./assets/icons/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h2>Education</h2>
+                <p>B. Tech. Computer Science Engineering</p>
+              </article>
+              <p class="card__content__text">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="color-mode">
+      <div id="toggle-button" class="icon"></div>
+    </div>
+  </body>
 </html>
